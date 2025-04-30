@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+   border-image-repeat:repeat;
+   background-color: hsl(225, 100%, 94%);
+   opacity: 0.9;
+}
+.container{
+    justify-content: center;
+    justify-items: center;
+    margin-top: 150px;
+}
+
+.big_box{
+    width: 320px;
+    height: 510px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+}
+img{
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: hsl(223, 39%, 7%);
+    padding-top: 20px;
+}
+.paragraph{
+    width: 290px;
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.deta{
+    text-align: center;
+    color: hsl(224, 10%, 28%);
+    font-size: 17px;
+    opacity: 0.5;
+}
+.box_icon{
+margin-top: 30px;
+justify-content: center;
+justify-items: center;
+}
+.icon{
+    width: 270px;
+    height: 80px;
+    background-color:rgb(219, 226, 226);
+    display: flex;
+    flex-direction: row;
+    
+}
+.annaull{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    padding-top: 15px;
+    margin-left: 5px;
+}
+h3{
+    color:hsl(240, 1%, 35%) ;
+    margin-left: 5px;
+}
+.change{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.betton{
+    justify-content: center;
+    justify-items: center;
+    margin-left: 28px;
+    margin-top: 20px;
+    
+}
+button{
+    width: 260px;
+     height: 30px;
+     border-radius: 10px;
+     color:hsl(225, 100%, 98%) ;
+     background-color: hsl(245, 75%, 52%);
+     border: none;
+     box-shadow: 1px 20px 9px  -10px hsl(244, 31%, 65%);
+     font-weight: bolder;
+    
+}
+.para{
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.top
+{
+  color:hsl(224, 23%, 55%);
+  font-weight: bolder;
+}
